@@ -8,7 +8,7 @@ const app=exp()
 
 //add cors middleware
 app.use(cors({
-    origin:['http://localhost:5173']
+    origin:['https://atp-24-eg-105-b12-capstone-mini.vercel.app']
 }))
 
 config();
